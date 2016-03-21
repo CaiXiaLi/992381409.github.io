@@ -18,11 +18,11 @@ $(document).ready(function(){
     if( $(this).hasClass("pause") ){
       mymusic.pause();
       $(this).removeClass("pause").addClass("play");
-      $(this).attr("src" ,"img/music_pause.png")
+      $(this).attr("src" ,"css/img/music_pause.png")
     }else{
       mymusic.play();
       $(this).removeClass("play").addClass("pause");
-      $(this).attr("src" ,"img/music_play.gif")
+      $(this).attr("src" ,"css/img/music_play.gif")
     }
   })
 

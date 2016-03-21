@@ -1,0 +1,53 @@
+*{
+  margin:0px;
+
+}
+body{
+  background-image: url("img/bg_1.jpg");
+  background-repeat:no-repeat;
+}
+.container{
+  margin-top: 300px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "微软雅黑";
+  color: #F8F8FF;
+
+}
+#btn a{
+  margin:0 auto;
+  width: 80px;
+  line-height: 80px;
+  display: block;
+  background-color: rgba(254,254,254,0.7);
+  border-radius: 40px;
+  box-shadow:0px 0px 10px #F8F8FF;
+  text-decoration: none;
+  color: #FF69B4;
+}
+
+
+.clicklogin{
+  margin:0 auto;
+  width: 400px;
+  height: 250px;
+  background-color: rgba(254,254,254,0.4);
+  font-size: 40px;
+  display:none;
+}
+
+.finput{
+  width: 240px;
+  height: 40px;
+  margin-top: 20px;
+}
+#linput{
+  background-color:rgba(254,254,254,0.2) ;
+  width: 50px;
+  height: 30px;
+  border: none;
+  color: #F8F8FF;
+  font-size: 18px;
+  font-family: "黑体";
+  
+}
